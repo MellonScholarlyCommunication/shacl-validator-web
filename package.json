@@ -13,5 +13,20 @@
 		"svelte": "^4.2.7",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"rdf-ext": "^2.5.0",
+		"rdf-parse": "^2.3.2",
+		"rdf-serialize": "^2.2.2",
+		"rdf-validate-shacl": "^0.5.1",
+		"stream-browserify": "^3.0.0",
+		"stream-to-string": "^1.2.1",
+		"streamify-string": "^1.0.1",
+		"util": "^0.12.5",
+		"vite-plugin-node-polyfills": "^0.17.0"
+	},
+    "repository": {
+       "type": "git",
+       "url": "git+https://github.com/MellonScholarlyCommunication/shacl-validator-web.git"
+    }
 }
